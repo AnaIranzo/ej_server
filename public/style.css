@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: black;
+    
+}
+
+main{
+    background-image: url('cinema-g1ca8bb3c1_1280.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px; 
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form{
+    width: 30%;
+    align-self: center;
+}

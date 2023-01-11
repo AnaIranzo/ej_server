@@ -4,13 +4,15 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
         title Document
     body 
         header 
+            h1(class='opac') Look for your favorites movies
         main 
             form(action="", method="post")
                 fieldset 
-                    label(for="title") Película:
+                    label(for="title") Film title:
                     input(type="text", name="title")
-                    input(type="submit", value="Buscar")
+                    input(type="submit", value="Search")
         footer 

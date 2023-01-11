@@ -10,6 +10,7 @@ app.use(express.json()); //habilitar el tipo de datos que vamos a recibir en el 
 
 app.set('view engine', 'pug');
 app.set('views','./views');
+//app.use(express.static(__dirname + '/public'));
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 

@@ -4,16 +4,18 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
         title Document
+        
     body 
         include ./header.pug
         main 
             section 
-            img(src=film.Poster, alt=film.Title)
-            h3 Title: #{film.Title}
-            p Director: #{film.Director} 
-            p Plot: #{film.Plot} 
-            p Released: #{film.Released} 
+                img(src=film.Poster, alt=film.Title)
+                h3 Title: #{film.Title}
+                p Director: #{film.Director} 
+                p Plot: #{film.Plot} 
+                p Released: #{film.Released} 
             
             
 
