@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res, next) {
     
-    const inputData = JSON.stringify(req.body.title);
+    const inputData = JSON.stringify(req.body.title);//req.body.name del input
     console.log(inputData);
     res.redirect(`/film/${inputData}`);
 });
